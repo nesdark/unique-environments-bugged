@@ -1,0 +1,63 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 592px;
+  margin-inline: auto;
+
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+main {
+  margin-inline: auto;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  font-weight: normal;
+}
+
+h1 span {
+  font-weight: bold;
+
+  margin-bottom: 32px;
+}
+
+span,
+a {
+  color: #ff9900;
+}
+
+footer {
+  margin-top: 4rem;
+
+  padding-top: 1rem;
+
+  text-align: center;
+  border-top: 1px solid #eceff2;
+}
+
+p,
+footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+footer a + a {
+  margin-left: 28px;
+}
+
+#balls {
+  width: 8.6rem;
+  height: 7.8rem;
+  background-image: url(./images/balls.svg);
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
